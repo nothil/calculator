@@ -1,0 +1,47 @@
+ body {
+     margin: 0px;
+     height: 100hv;
+
+ }
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+ .container {
+     width: 50%;
+     
+     background-color: lightslategrey;
+     margin: auto;
+     padding: 10em;
+ }
+
+ .row {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ width: 100%;
+ padding: 10px;
+ margin: 10px;
+  }
+
+  .row.col-md-4{
+      border-radius: 50%;
+      
+  }
+  .text{
+      background-color: orange;
+      border-radius: 50%;
+      text-align: center;
+      padding: 20%;
+      width: 40px;
+      height: 40px;
+    
+      
+    }
+
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
